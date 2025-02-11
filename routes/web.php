@@ -7,3 +7,4 @@ Route::get('/', function () {
 });
 
 Route::get( '/login', 'App\Http\Controllers\LoginController@index');
+Route::get( '/hello', 'App\Http\Controllers\HelloController@index');
